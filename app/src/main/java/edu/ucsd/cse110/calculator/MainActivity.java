@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             int num1 = Utils.toIntNullsafe(num1Text);
             int num2 = Utils.toIntNullsafe(num2Text);
 
-            int answer = num1 * num2;
+            //Where the problem is!
+            int answer = num1 + num2;
 
             TextView resultView = this.findViewById(R.id.result);
             resultView.setText(String.valueOf(answer));
