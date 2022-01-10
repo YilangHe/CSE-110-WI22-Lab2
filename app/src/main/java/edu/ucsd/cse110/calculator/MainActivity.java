@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             String num1Text = num1View.getText().toString();
             String num2Text = num2View.getText().toString();
 
+            //THis is a comment
             int num1 = Utils.toIntNullsafe(num1Text);
             int num2 = Utils.toIntNullsafe(num2Text);
 
